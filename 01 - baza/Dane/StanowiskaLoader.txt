@@ -1,0 +1,5 @@
+load data
+infile 'Stanowiska.csv'
+append into table Stanowiska
+fields terminated by ','
+( id_stanowiska, nazwa_stanowiska)

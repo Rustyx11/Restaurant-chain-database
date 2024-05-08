@@ -1,0 +1,5 @@
+load data
+infile 'Restauracja.csv'
+append into table Restauracja
+fields terminated by ','
+( id_restauracji, nazwa_restauracji, nr_telefonu, id_ulicy, id_miasta, id_menu)

@@ -1,0 +1,24 @@
+cd
+Set u=system
+Set p=12345
+sqlldr %u%/%p% control=WojewodztwaLoader.txt
+sqlldr %u%/%p% control=MiastaLoader.txt
+sqlldr %u%/%p% control=UlicaLoader.txt
+sqlldr %u%/%p% control=MenuLoader.txt
+sqlldr %u%/%p% control=Typ_DaniaLoader.txt
+sqlldr %u%/%p% control=DaniaLoader.txt
+sqlldr %u%/%p% control=Dane_osoboweLoader.txt
+sqlldr %u%/%p% control=StanowiskaLoader.txt
+sqlldr %u%/%p% control=WyplataLoader.txt
+sqlldr %u%/%p% control=ModelLoader.txt
+sqlldr %u%/%p% control=MarkaLoader.txt
+sqlldr %u%/%p% control=SamochodLoader.txt
+sqlldr %u%/%p% control=FakturaLoader.txt
+sqlldr %u%/%p% control=RestauracjaLoader.txt
+sqlldr %u%/%p% control=PracownikLoader.txt
+sqlldr %u%/%p% control=KurierLoader.txt
+sqlldr %u%/%p% control=DostawcaLoader.txt
+sqlldr %u%/%p% control=Typ_ProduktuLoader.txt
+sqlldr %u%/%p% control=ProduktLoader.txt
+sqlldr %u%/%p% control=SprzedazLoader.txt
+pause

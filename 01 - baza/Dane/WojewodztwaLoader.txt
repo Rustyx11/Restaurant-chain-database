@@ -1,0 +1,5 @@
+load data
+infile 'Wojewodztwa.csv'
+append into table Wojewodztwa
+fields terminated by ','
+( id_wojewodztwa, nazwa_woj)

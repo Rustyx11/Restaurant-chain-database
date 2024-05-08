@@ -1,0 +1,5 @@
+load data
+infile 'Kurier.csv'
+append into table Kurier
+fields terminated by ','
+( id_kuriera, id_pracownika, id_samochodu)

@@ -1,0 +1,5 @@
+load data
+infile 'Ulica.csv'
+append into table Ulica
+fields terminated by ','
+( id_ulicy, nazwa_ulicy)

@@ -1,0 +1,5 @@
+load data
+infile 'Wyplata.csv'
+append into table Wyplata
+fields terminated by ','
+( id_wyplata, kwota_brutto, kwota_netto)

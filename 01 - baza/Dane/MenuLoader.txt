@@ -1,0 +1,5 @@
+load data
+infile 'Menu.csv'
+append into table Menu
+fields terminated by ','
+( id_menu, nazwa_menu)

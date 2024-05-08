@@ -1,0 +1,5 @@
+load data
+infile 'Dostawca.csv'
+append into table Dostawca
+fields terminated by ','
+( id_dostawcy, nazwa_firmy, NIP, id_kuriera, id_faktury, id_ulicy, id_miasta, id_restauracji)

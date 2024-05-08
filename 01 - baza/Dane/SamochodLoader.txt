@@ -1,0 +1,5 @@
+load data
+infile 'Samochod.csv'
+append into table Samochod
+fields terminated by ','
+( id_samochodu, nr_rej, VIN, id_marki)

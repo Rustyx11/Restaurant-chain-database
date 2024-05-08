@@ -1,0 +1,5 @@
+load data
+infile 'Model.csv'
+append into table Model
+fields terminated by ','
+( id_modelu, nazwa_modelu)

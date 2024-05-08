@@ -1,0 +1,5 @@
+load data
+infile 'Marka.csv'
+append into table Marka
+fields terminated by ','
+( id_marki, marka, id_modelu)

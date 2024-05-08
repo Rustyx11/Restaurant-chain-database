@@ -1,0 +1,5 @@
+load data
+infile 'Dania.csv'
+append into table Dania
+fields terminated by ','
+( id_dania, nazwa_dania, cena, id_menu, id_typ_dania)

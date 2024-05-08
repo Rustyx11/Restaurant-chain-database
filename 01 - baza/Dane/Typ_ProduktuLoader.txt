@@ -1,0 +1,5 @@
+load data
+infile 'Typ_produktu.csv'
+append into table Typ_Produktu
+fields terminated by ','
+( id_typ_produktu, nazwa_typu_produktu)

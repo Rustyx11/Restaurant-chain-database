@@ -1,0 +1,5 @@
+load data
+infile 'Faktura.csv'
+append into table Faktura
+fields terminated by ','
+( id_faktury, kwota_netto, kwota_brutto, data_wystawienia DATE "DD/MM/YYYY", termin_platnosci DATE "DD/MM/YYYY")

@@ -1,0 +1,5 @@
+load data
+infile 'Sprzedaz.csv'
+append into table Sprzedaz
+fields terminated by ','
+( id_sprzedaz, id_restauracji, id_pracownika, id_dania, data DATE "DD/MM/YYYY")

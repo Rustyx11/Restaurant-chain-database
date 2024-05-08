@@ -1,0 +1,5 @@
+load data
+infile 'Miasta.csv'
+append into table Miasta
+fields terminated by ','
+( id_miasta, nazwa_miasta, kod_pocztowy, id_wojewodztwa)

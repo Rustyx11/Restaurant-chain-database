@@ -1,0 +1,5 @@
+load data
+infile 'Dane_osobowe.csv'
+append into table Dane_osobowe
+fields terminated by ','
+( id_danych, imie, nazwisko, pesel, nr_telefonu, email)
